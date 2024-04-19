@@ -38,8 +38,8 @@ from pymatgen.io.cssr import Cssr
 from pymatgen.io.xyz import XYZ
 
 try:
-    from zeo.cluster import prune_voronoi_network_close_node
-    from zeo.netstorage import AtomNetwork
+    from pyzeo.cluster import prune_voronoi_network_close_node
+    from pyzeo.netstorage import AtomNetwork
 
     zeo_found = True
 except ImportError:

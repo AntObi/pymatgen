@@ -1,3 +1,4 @@
+
 from __future__ import annotations
 
 import unittest
@@ -18,7 +19,7 @@ from pymatgen.io.zeopp import (
 from pymatgen.util.testing import TEST_FILES_DIR, VASP_IN_DIR
 
 try:
-    import zeo
+    import pyzeo as zeo
 except ImportError:
     zeo = None
 
